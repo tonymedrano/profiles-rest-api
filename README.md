@@ -79,6 +79,8 @@ pip install -r requirements.txt
 ```sh 
 django-admin.py startproject profiles_project .
 ```
+```sh 
+python manage.py startapp profiles_api```
 
 ```sh 
 python manage.py runserver 0.0.0.0:8080
